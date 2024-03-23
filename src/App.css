@@ -52,3 +52,9 @@ button:hover {
 }
 
 /* Add additional styles for the logout button here if needed */
+
+.logout-wrapper {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
