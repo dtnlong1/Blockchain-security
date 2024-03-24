@@ -1,9 +1,10 @@
 import React from "react";
+import AITransactionReport  from "./Page-4/AI-Gen-Rep";
 
 function LogoutButton({ onLogout }) {
 	return (
 		<div>
-			<h2>Welcome!</h2>
+			<AITransactionReport />
 			<button onClick={onLogout}>Logout</button>
 		</div>
 	);
